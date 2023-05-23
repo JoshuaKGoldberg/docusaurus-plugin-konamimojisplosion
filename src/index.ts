@@ -1,2 +1,5 @@
-export * from "./greet.js";
-export * from "./types.js";
+import { initializeKonamimojisplosion } from "konamimojisplosion";
+
+export default function docusaurusPluginKonamimojisplosion() {
+	initializeKonamimojisplosion();
+}
