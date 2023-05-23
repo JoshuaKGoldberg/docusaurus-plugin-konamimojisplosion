@@ -69,14 +69,6 @@ module.exports = {
 			extends: ["plugin:jsonc/recommended-with-json"],
 		},
 		{
-			files: "**/*.test.ts",
-			rules: {
-				// These on-by-default rules aren't useful in test files.
-				"@typescript-eslint/no-unsafe-assignment": "off",
-				"@typescript-eslint/no-unsafe-call": "off",
-			},
-		},
-		{
 			extends: ["plugin:yml/standard", "plugin:yml/prettier"],
 			files: ["**/*.{yml,yaml}"],
 			parser: "yaml-eslint-parser",
@@ -105,18 +97,15 @@ module.exports = {
 		"deprecation",
 		"import",
 		"jsdoc",
-		"no-only-tests",
 		"regexp",
 		"simple-import-sort",
 		"typescript-sort-keys",
-		"vitest",
 	],
 	root: true,
 	rules: {
 		// These off/less-strict-by-default rules work well for this repo and we like them on.
 		"@typescript-eslint/no-unused-vars": ["error", { caughtErrors: "all" }],
 		"import/extensions": ["error", "ignorePackages"],
-		"no-only-tests/no-only-tests": "error",
 		"simple-import-sort/exports": "error",
 		"simple-import-sort/imports": "error",
 

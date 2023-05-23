@@ -10,9 +10,6 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- prettier-ignore-end -->
 	</a>
-	<a href="https://codecov.io/gh/JoshuaKGoldberg/docusaurus-plugin-konamimojisplosion" target="_blank">
-		<img alt="Codecov Test Coverage" src="https://codecov.io/gh/JoshuaKGoldberg/docusaurus-plugin-konamimojisplosion/branch/main/graph/badge.svg?token=eVIFY4MhfQ"/>
-	</a>
 	<a href="https://github.com/JoshuaKGoldberg/docusaurus-plugin-konamimojisplosion/blob/main/.github/CODE_OF_CONDUCT.md" target="_blank">
 		<img alt="Contributor Covenant" src="https://img.shields.io/badge/code_of_conduct-enforced-21bb42" />
 	</a>
