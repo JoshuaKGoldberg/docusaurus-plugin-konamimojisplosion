@@ -64,7 +64,7 @@
 		"prettier-plugin-packagejson": "^2.4.3",
 		"release-it": "^15.10.3",
 		"sentences-per-line": "^0.2.1",
-		"should-semantic-release": "^0.1.1",
+		"should-semantic-release": "^0.3.0",
 		"typescript": "^5.0.4",
 		"yaml-eslint-parser": "^1.2.2"
 	},
